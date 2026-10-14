@@ -56,7 +56,7 @@ public class Circle1 {
      // Invece di riscrivere 'this.x = 0.0; this.y = 0.0; this.r = r;',
      // chiamiamo il costruttore principale passandogli i valori di default (0.0, 0.0).
      
-     // ⚠️ REGOLA FERREA: 'this(...)' DEVE essere la PRIMA istruzione del costruttore!
+     // ⚠ REGOLA FERREA: 'this(...)' DEVE essere la PRIMA istruzione del costruttore!
      // Se mettiamo qualsiasi altra riga di codice prima, Eclipse darà errore.
      this(0.0, 0.0, r); 
  }
